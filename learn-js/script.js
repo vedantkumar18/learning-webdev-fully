@@ -120,3 +120,13 @@ console.log(`Display message: `, displayMessage);
 
 //js speed/quiz done
 
+//strings / indexing
+
+const email = `stoob@gmail.com`; 
+
+//tasks to do here:- 
+//- print the first character in this string
+
+//- print the last character in this string
+
+//- print the entire string here
