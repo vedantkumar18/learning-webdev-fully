@@ -122,11 +122,41 @@ console.log(`Display message: `, displayMessage);
 
 //strings / indexing
 
-const email = `stoob@gmail.com`; 
+const email = `stoob@gmail.com`;
 
 //tasks to do here:- 
 //- print the first character in this string
-
+console.log(email[0]);
 //- print the last character in this string
-
+console.log(email[email.length -1]);
 //- print the entire string here
+console.log(email)
+
+// i learnt how to index / categorize specific characters with their respectice numbers and display them
+
+// template literals
+
+const Name = `saul goodman`;
+const OpenRate = 30.5;
+
+let msg =`Hi ${Name}, your open rate is: ${OpenRate} `;
+
+console.log(msg);
+
+// learnt how to display numbers and other messages in a string such as username + some text / sentences, etc.
+
+//semi colons in js
+
+console.log(`contacting cell tower...`); console.log(`sending message...`);
+
+// meh makes sense
+
+//string encoding, whatever the hell that is.
+
+let StringEncodeName = `🐻`;
+console.log(`constant 'name' UTF-16 unit length: ${StringEncodeName.length}`);
+console.log(`constant 'name' character length: ${[...StringEncodeName].length}`);
+console.log(`===================`);
+console.log(`Hi ${StringEncodeName}, welcome to Textio!`);
+
+// so what did i learn? i learnt that different emojis and other things in the strings affect the amount of utf characters take 
