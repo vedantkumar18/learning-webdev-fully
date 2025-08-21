@@ -132,7 +132,7 @@ console.log(email[0]);
 //- print the last character in this string
 console.log(email[email.length -1]);
 //- print the entire string here
-console.log(email)
+console.log(email);
 
 // i learnt how to index / categorize specific characters with their respectice numbers and display them
 
@@ -165,4 +165,24 @@ console.log(`Hi ${StringEncodeName}, welcome to Textio!`);
 
 // camel case in js, which is first word is small letter start then the second subsequent word is capital letter first.
 
-//
+//Chapter 2:- Comparisons!!!!!!!!!!!!!!!!
+
+//Conditionals
+
+let messageLen = 10;
+const maxMessageLen = 20;
+console.log(
+   `Trying to send a message of length:`,
+   messageLen,
+   `and a max length of:`,
+   maxMessageLen,
+);
+
+
+if (messageLen <= maxMessageLen) {
+   console.log(`Message sent`);
+} else {
+   console.log(`Message not sent`);
+}
+
+// what did i learn? how to check and validate if the piece of code im wirting is working as intended or not
