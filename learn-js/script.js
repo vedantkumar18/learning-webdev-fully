@@ -186,3 +186,24 @@ if (messageLen <= maxMessageLen) {
 }
 
 // what did i learn? how to check and validate if the piece of code im wirting is working as intended or not
+
+//comparison operators
+
+console.log(5 < 6);
+console.log(5 !== 6);
+console.log(5 !== `5`);
+console.log(6 >= 6);
+
+// i learnt about comparison operators, simple
+
+// logical operators
+
+const hasHighOpenRate = true;
+const isRecent = true;
+const hasStrongReplyRate = false;
+const canBeResent = true;
+const isFlaggedAsSpam = false;
+
+const isHighEngagement = // ?
+
+console.log(`The campaign is high-engagement: ${}`);
