@@ -160,3 +160,5 @@ console.log(`===================`);
 console.log(`Hi ${StringEncodeName}, welcome to Textio!`);
 
 // so what did i learn? i learnt that different emojis and other things in the strings affect the amount of utf characters take 
+
+// camel case in js, which is first word is small letter start then the second subsequent word is capital letter first.
