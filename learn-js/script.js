@@ -219,3 +219,27 @@ console.log(`The campaign is high-engagement: ${isHighEngagement}`);
 
 // Switch
 
+function billingCost(plan) {
+   switch(plan) {
+      case "basic":
+         return 10.0;
+         case "pro":
+            return 20.0;
+            case "enterprise":
+               return 50.0;
+               case "free":
+                  return 0.0;
+         default:
+            return 0.0
+   }
+}
+
+console.log(`basic plan: $${billingCost("basic")}`);
+console.log(`pro plan: $${billingCost("pro")}`);
+console.log(`enterprise plan: $${billingCost("enterprise")}`);
+console.log(`free plan: $${billingCost("free")}`);
+console.log(`unknown plan: $${billingCost("unknown")}`);
+
+// what did i learn? how to use switch cases and its diverse functionality
+//  to sift through functions and return whats needed with not a lot of
+//  clutter / boilerplate via if elses
