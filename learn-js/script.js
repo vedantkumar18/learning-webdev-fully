@@ -40,7 +40,8 @@ console.log(`messageText: ` + messageText);
  so fucking convenient ~^^
  */
 
- // and this is a single line one, really good for when i want to force myself to explain whats happening in as few words as possible.
+ // and this is a single line one, really good for
+ // when i want to force myself to explain whats happening in as few words as possible.
  // i learnt about how comments work ^^
 
  //numbers in js
@@ -145,7 +146,8 @@ let msg =`Hi ${Name}, your open rate is: ${OpenRate} `;
 
 console.log(msg);
 
-// learnt how to display numbers and other messages in a string such as username + some text / sentences, etc.
+// learnt how to display numbers and other messages in a string
+//  such as username + some text / sentences, etc.
 
 //semi colons in js
 
@@ -161,9 +163,11 @@ console.log(`constant 'name' character length: ${[...StringEncodeName].length}`)
 console.log(`===================`);
 console.log(`Hi ${StringEncodeName}, welcome to Textio!`);
 
-// so what did i learn? i learnt that different emojis and other things in the strings affect the amount of utf characters take 
+// so what did i learn? i learnt that different emojis and other things in the strings
+// affect the amount of utf characters take 
 
-// camel case in js, which is first word is small letter start then the second subsequent word is capital letter first.
+// camel case in js, which is first word is small letter start then the second subsequent word
+// is capital letter first.
 
 //Chapter 2:- Comparisons!!!!!!!!!!!!!!!!
 
@@ -185,7 +189,8 @@ if (messageLen <= maxMessageLen) {
    console.log(`Message not sent`);
 }
 
-// what did i learn? how to check and validate if the piece of code im wirting is working as intended or not
+// what did i learn? how to check and validate if the piece of code im wirting is working as intended
+// or not
 
 //comparison operators
 
@@ -196,7 +201,7 @@ console.log(6 >= 6);
 
 // i learnt about comparison operators, simple
 
-// logical operators
+//logical operators && || !false/!true = true/false 
 
 const hasHighOpenRate = true;
 const isRecent = true;
@@ -204,6 +209,13 @@ const hasStrongReplyRate = false;
 const canBeResent = true;
 const isFlaggedAsSpam = false;
 
-const isHighEngagement = // ?
+const isHighEngagement = hasHighOpenRate && isRecent && (hasStrongReplyRate || canBeResent) && !isFlaggedAsSpam;
 
-console.log(`The campaign is high-engagement: ${}`);
+console.log(`The campaign is high-engagement: ${isHighEngagement}`);
+
+// what did i learn? how to use logical operators && || ! ,
+// to check if my variables are being used correctly and as intended
+// and not prompting me to get an inavalid result.
+
+// Switch
+
