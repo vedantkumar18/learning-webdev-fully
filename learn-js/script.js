@@ -232,4 +232,21 @@ console.log(`unknown plan: $${billingCost("unknown")}`);
 
 // what did i learn? how to use switch cases and its diverse functionality to sift through functions and return whats needed with not a lot of clutter / boilerplate via if elses
 
-// 
+// ternary operator 
+
+const retryLimit = 10;
+const numRetries = 9;
+
+let messageStatus = numRetries <= retryLimit ? "processing" : "failed";
+console.log(messageStatus);
+/*let messageStatus = numRetries <= retryLimit;
+if (messageStatus) {
+   console.log(`processing`);
+} else {
+   console.log(`failed`);
+} */
+
+// what did i learn? how to use ternary for really small  operations if needed at all, that is.
+
+//when to ternary
+
