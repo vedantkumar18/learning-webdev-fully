@@ -239,6 +239,7 @@ const numRetries = 9;
 
 let messageStatus = numRetries <= retryLimit ? "processing" : "failed";
 console.log(messageStatus);
+
 /*let messageStatus = numRetries <= retryLimit;
 if (messageStatus) {
    console.log(`processing`);
@@ -248,5 +249,46 @@ if (messageStatus) {
 
 // what did i learn? how to use ternary for really small  operations if needed at all, that is.
 
-//when to ternary
+//when to ternary, when the task is simple
 
+// truthy and falsy
+
+const userCredits = -2;
+
+if (userCredits >= 1) {
+   console.log (`sending message...`);
+} else {
+   console.log(`not enough credits.`)
+}
+
+// its a simple true / false check to make sure that the credits are being calculated appropriately
+
+// nullish coalescing
+
+const nullName = `James holden`;
+const provider = `AT&T`;
+const phoneNumber = `555-123-4567`;
+const subscriptionType = null; 
+
+console.log(`creating ${subscriptionType ?? "Guest"} profile for ${nullName} with ${provider} at ${phoneNumber}`);
+
+// what did i learn? how to put default text values for users with no plans selected or those who chose no subscription
+
+// chapter 3:- F-F-F-FFFUNCTIONSSSSSSS BABYYYYYY~~~~ HELL YEAH
+
+// Functions 
+
+function concat(str1, str2) {
+   return str1 + str2;
+}
+
+
+console.log(concat(`lane,`, ` happy birthday!`));
+console.log(concat(`Naomi,`, ` can you call me?`));
+console.log(concat(`Juliette,`, ` where did you go?`));
+
+// learnt how to use functions and return aka display/call the output correctly
+
+// functions hoisting
+
+// unit tests very important even more important than functions.
