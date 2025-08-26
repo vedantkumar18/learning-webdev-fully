@@ -243,3 +243,4 @@ console.log(`unknown plan: $${billingCost("unknown")}`);
 // what did i learn? how to use switch cases and its diverse functionality
 //  to sift through functions and return whats needed with not a lot of
 //  clutter / boilerplate via if elses
+
