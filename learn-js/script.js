@@ -31,8 +31,7 @@ if(isBirthday) {
 console.log(`sending welcome message`);
 console.log(`messageText: ` + messageText);
 
-// what did i learn? how to correctly map 
-// and define objects in code so that they dont overlap and break apart.
+// what did i learn? how to correctly map and define objects in code so that they dont overlap and break apart.
 
  /*
  this is a multi line
@@ -40,9 +39,7 @@ console.log(`messageText: ` + messageText);
  so fucking convenient ~^^
  */
 
- // and this is a single line one, really good for
- // when i want to force myself to explain whats happening in as few words as possible.
- // i learnt about how comments work ^^
+ // and this is a single line one, really good for when i want to force myself to explain whats happening in as few words as possible. i learnt about how comments work ^^
 
  //numbers in js
 
@@ -63,8 +60,7 @@ console.log(`messageText: ` + messageText);
  and i learnt how to calculate the average for it too~
  */
 
- // numbers review - done was really easy tbh
- // increment and decrement op
+ // numbers review - done was really easy tbh increment and decrement op
 
  let numFailedMessages = 1336;
 
@@ -146,8 +142,7 @@ let msg =`Hi ${Name}, your open rate is: ${OpenRate} `;
 
 console.log(msg);
 
-// learnt how to display numbers and other messages in a string
-//  such as username + some text / sentences, etc.
+// learnt how to display numbers and other messages in a string such as username + some text / sentences, etc.
 
 //semi colons in js
 
@@ -163,11 +158,9 @@ console.log(`constant 'name' character length: ${[...StringEncodeName].length}`)
 console.log(`===================`);
 console.log(`Hi ${StringEncodeName}, welcome to Textio!`);
 
-// so what did i learn? i learnt that different emojis and other things in the strings
-// affect the amount of utf characters take 
+// so what did i learn? i learnt that different emojis and other things in the strings affect the amount of utf characters take 
 
-// camel case in js, which is first word is small letter start then the second subsequent word
-// is capital letter first.
+// camel case in js, which is first word is small letter start then the second subsequent word is capital letter first.
 
 //Chapter 2:- Comparisons!!!!!!!!!!!!!!!!
 
@@ -189,8 +182,7 @@ if (messageLen <= maxMessageLen) {
    console.log(`Message not sent`);
 }
 
-// what did i learn? how to check and validate if the piece of code im wirting is working as intended
-// or not
+// what did i learn? how to check and validate if the piece of code im wirting is working as intended or not
 
 //comparison operators
 
@@ -213,9 +205,7 @@ const isHighEngagement = hasHighOpenRate && isRecent && (hasStrongReplyRate || c
 
 console.log(`The campaign is high-engagement: ${isHighEngagement}`);
 
-// what did i learn? how to use logical operators && || ! ,
-// to check if my variables are being used correctly and as intended
-// and not prompting me to get an inavalid result.
+// what did i learn? how to use logical operators && || ! ,to check if my variables are being used correctly and as intended and not prompting me to get an inavalid result.
 
 // Switch
 
@@ -240,7 +230,6 @@ console.log(`enterprise plan: $${billingCost("enterprise")}`);
 console.log(`free plan: $${billingCost("free")}`);
 console.log(`unknown plan: $${billingCost("unknown")}`);
 
-// what did i learn? how to use switch cases and its diverse functionality
-//  to sift through functions and return whats needed with not a lot of
-//  clutter / boilerplate via if elses
+// what did i learn? how to use switch cases and its diverse functionality to sift through functions and return whats needed with not a lot of clutter / boilerplate via if elses
 
+// 
