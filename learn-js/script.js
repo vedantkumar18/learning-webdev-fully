@@ -212,15 +212,15 @@ console.log(`The campaign is high-engagement: ${isHighEngagement}`);
 function billingCost(plan) {
    switch(plan) {
       case "basic":
-         return 10.0;
-         case "pro":
-            return 20.0;
-            case "enterprise":
-               return 50.0;
-               case "free":
-                  return 0.0;
-         default:
-            return 0.0
+      return 10.0;
+      case "pro":
+      return 20.0;
+      case "enterprise":
+      return 50.0;
+      case "free":
+      return 0.0;
+      default:
+      return 0.0
    }
 }
 
