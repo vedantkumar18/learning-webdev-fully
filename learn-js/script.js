@@ -292,3 +292,22 @@ console.log(concat(`Juliette,`, ` where did you go?`));
 // functions hoisting
 
 // unit tests very important even more important than functions.
+/* the unit test doesnt work on here due to issues that im unaware of for now.
+function getMonthlyPrice(tier) {
+     switch (tier) {
+    case "basic":
+      return 10000;
+    case "premium":
+      return 15000;
+    case "enterprise":
+      return 50000;
+    default:
+      return 0;
+   }
+      console.log(getMonthlyPrice("basic")); 
+   // my code here
+}
+
+export {getMonthlyPrice};
+
+*/
