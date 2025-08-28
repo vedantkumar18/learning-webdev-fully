@@ -308,6 +308,11 @@ function getMonthlyPrice(tier) {
 }  
 
 console.log(getMonthlyPrice("basic"));    
+console.log(getMonthlyPrice("premium"));    
+console.log(getMonthlyPrice("enterprise"));    
+console.log(getMonthlyPrice("free"));    
+
+//module.exports = {getMonthlyPrice};
 
 // NOTE:- SINCE I DO NOT KNOW YET HOW TO PROPERLY UNIT TEST MY CODE IN MY VS CODE BY USING DIFFERENT FILES, I WONT INCLUDE MORE UNIT TEST FILES TILL LATER
 
