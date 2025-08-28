@@ -292,7 +292,7 @@ console.log(concat(`Juliette,`, ` where did you go?`));
 // functions hoisting
 
 // unit tests very important even more important than functions.
-/* the unit test doesnt work on here due to issues that im unaware of for now.
+
 function getMonthlyPrice(tier) {
      switch (tier) {
     case "basic":
@@ -304,12 +304,10 @@ function getMonthlyPrice(tier) {
     default:
       return 0;
    }
-      console.log(getMonthlyPrice("basic")); 
    // my code here
-}
+}  
 
-export {getMonthlyPrice};
-
-*/
+console.log(getMonthlyPrice("basic"));    
 
 // NOTE:- SINCE I DO NOT KNOW YET HOW TO PROPERLY UNIT TEST MY CODE IN MY VS CODE BY USING DIFFERENT FILES, I WONT INCLUDE MORE UNIT TEST FILES TILL LATER
+
