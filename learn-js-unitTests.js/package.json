@@ -1,0 +1,13 @@
+{
+  "name": "learn-js-files",
+  "version": "1.0.0",
+  "main": "monthpric.js",
+"scripts": {
+  "test": "mocha monthpric_test.js"
+}
+,
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "chai": "^5.1.1"
+  }
+}
